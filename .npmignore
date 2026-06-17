@@ -1,0 +1,12 @@
+.nyc_output/
+coverage/
+docs
+examples/
+scratch/
+test/
+.*
+*.log
+*.md
+appveyor.yml
+tsconfig.json
+jest.config.js

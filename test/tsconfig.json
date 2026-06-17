@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": [
+      "es6"
+    ],
+    "target": "es6",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": [
+      "../node_modules",
+      "../node_modules/@types"
+    ],
+    "types": [
+      "node",
+      "logform",
+      "winston-transport"
+    ],
+    "noEmit": true
+  },
+  "files": [
+    "typescript-definitions.ts"
+  ]
+}
