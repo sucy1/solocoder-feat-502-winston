@@ -203,6 +203,16 @@ declare namespace winston {
   let rejections: RejectionHandler;
   let exitOnError: Function | boolean;
   // let default: object;
+
+  interface EnvFormatOptions {
+    formats?: { [env: string]: logform.Format };
+  }
+}
+
+declare module 'logform' {
+  namespace format {
+    function envFormat(opts?: winston.EnvFormatOptions): logform.Format;
+  }
 }
 
 export = winston;
