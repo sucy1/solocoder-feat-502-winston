@@ -39,7 +39,7 @@
 	"devDependencies": {
 		"@babel/cli": "^7.23.9",
 		"@babel/core": "^7.24.0",
-		"@babel/preset-env": "^7.24.0",
+		"@babel/preset-env": "^8.0.1",
 		"@dabh/eslint-config-populist": "^4.4.0",
 		"@eslint/eslintrc": "^3.3.5",
 		"@eslint/js": "^10.0.1",
